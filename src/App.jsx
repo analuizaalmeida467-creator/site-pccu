@@ -45,9 +45,22 @@ export default function App() {
 
       <footer style={{ textAlign: "center", marginTop: 28, fontSize: 13 }}>
         <div>Macapá - AP | 2024</div>
-        <button style={{ marginTop: 12, background: "#b91c1c", color: "#fff", padding: "8px 16px", border: "none", borderRadius: 8, cursor: "pointer" }}>
-          Ler Artigo Completo
-        </button>
+        <a
+  href="/artigo-pccu.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    display: "inline-block",
+    marginTop: 12,
+    background: "#b91c1c",
+    color: "#fff",
+    padding: "8px 16px",
+    borderRadius: 8,
+    textDecoration: "none",
+  }}
+>
+  Ler Artigo Completo
+</a>
       </footer>
     </div>
   );
