@@ -45,7 +45,7 @@ export default function App() {
 
       <footer style={{ textAlign: "center", marginTop: 28, fontSize: 13 }}>
         <div>Macapá - AP | 2024</div>
-        <a href="/artigo-pccu.pdf"...>
+        <a href="/pesquisa escrita.pdf"...>
   target="_blank"
   rel="noopener noreferrer"
   style={{
